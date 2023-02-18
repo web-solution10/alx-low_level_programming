@@ -10,6 +10,6 @@ int main(void)
 {
 	char test[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(1, test, 59);
+	write(0, test, 59);
 	return (1);
 }
