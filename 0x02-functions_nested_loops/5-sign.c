@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - chech the param c sign
+ * print_sign - chech the parameter n sign
  *
  * @n: input num
  *
