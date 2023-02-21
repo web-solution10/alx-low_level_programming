@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - print '_putchar'
  *
@@ -6,7 +8,13 @@
 
 int main(void)
 {
-	_putchar("c");
+	char *str = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(str[i]);
+	}
 	return (0);
 }
 
