@@ -9,7 +9,7 @@
 void print_alphabet_x10(void)
 {
 	char *str = "abcdefghijklmnopqrstuvwxyz";
-iint i, j;
+	int i, j;
 
 	for (j = 0; j < 10; j++)
 	{
