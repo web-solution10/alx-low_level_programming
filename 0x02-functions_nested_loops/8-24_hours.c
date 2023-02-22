@@ -24,10 +24,10 @@ void jack_bauer(void)
 					_putchar(k);
 					_putchar(l);
 					_putchar('\n');
-					if (i == 50 && j == 52)
-						break;
 				}
 			}
+			if (i == 50 && j == 52)
+				break;
 		}
 	}
 }
