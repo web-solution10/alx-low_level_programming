@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - just a fizzbuzz
+ * main - just a fizzbuz
  *
  * Return: no return
  */
