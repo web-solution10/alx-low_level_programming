@@ -3,10 +3,10 @@
 /**
  * main - just a fizzbuz
  *
- * Return: no return
+ * Return: 0
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -31,4 +31,5 @@ void main(void)
 		putchar(' ');
 	}
 	putchar('\n');
+	return (0);
 }
