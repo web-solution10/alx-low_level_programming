@@ -28,5 +28,5 @@ char *_strpbrk(char *s, char *accept)
 		if (*(s + i) == 0)
 			return (NULL);
 	}
-	return (ptr);
+	return (0);
 }
