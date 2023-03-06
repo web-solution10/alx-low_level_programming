@@ -1,1 +1,1 @@
-more poiter_array_string tasks
+more pointer_array_string tasks
