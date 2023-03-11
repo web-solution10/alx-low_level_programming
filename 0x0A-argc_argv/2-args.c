@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints its name, followed by a new line.
+ * main - prints all arguments it receives.
  * @argc: the count of the arguements
  * @argv: array of pointers to the arguments
  * Return: 0
  */
 
-int main(int argc __attribute__ ((unused)), char **argv)
+int main(int argc, char **argv)
 {
-	printf("%s\n", argv[0]);
+	int i;
+
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 	return (0);
 }
